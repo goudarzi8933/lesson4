@@ -1,0 +1,191 @@
+html {
+  direction: ltr;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+  color: #272829;
+}
+A {
+  text-decoration: none;
+  color: #000;
+}
+ul li {
+  list-style-type: none;
+}
+
+/* ================ carousel =========== */
+
+section {
+  padding: 50px 0px 120px 0px;
+  position: relative;
+  background-color: #f8f6fa !important;
+  /* background-color: #4f138b !important; */
+}
+.carousel {
+  margin: 50px auto;
+  padding: 0 70px;
+}
+
+.carousel .carousel-indicators {
+  bottom: -40px;
+}
+
+.carousel-indicators li {
+  background: #999 !important;
+  border-color: transparent !important;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2) !important;
+}
+.carousel-indicators li.active {
+  background: #6c55a3 !important;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+  width: 21px !important;
+  height: 0px !important;
+  margin: 1px 3px !important;
+}
+
+.carousel .item {
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 290px;
+}
+
+.carousel .item .img-box {
+  width: 135px;
+  height: 135px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.carousel .caption {
+  padding: 30px 0 10px;
+}
+.carousel p {
+  line-height: 1.9;
+}
+
+.carousel .name strong {
+  text-transform: uppercase !important;
+  color: #6c55a3;
+}
+
+.carousel-control {
+  width: 40px;
+  height: 40px;
+  margin-top: -40px;
+  top: 50%;
+  background: none;
+}
+
+.carousel-control i {
+  font-size: 58px;
+  line-height: 42px;
+  position: absolute;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+/* =================== start faq================= */
+
+.question-box button {
+  width: 100%;
+  text-align: left;
+}
+.question-box button .collapse-icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 30px;
+  top: 5px;
+  transition: 0.2s;
+}
+
+.collapsed .up {
+  display: none;
+  transform: rotate(180deg);
+}
+.up:not(.collapsed) {
+  display: inline;
+}
+.down:not(.collapsed) {
+  display: none;
+}
+.question-box__btn:not(.collapsed) {
+  color: #0c63e4;
+  background-color: #e7f1ff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* =============== nav ============== */
+
+.navbar {
+  /* backdrop-filter: blur(5px); */
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-icon-top .navbar-nav .active,
+.navbar-icon-top .navbar-nav .nav-link:hover {
+  color: #e016b7b2 !important;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  position: relative;
+  width: 36px;
+  font-size: 18px;
+  top: 3px;
+  line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+.navbar form button {
+  font-size: 1.1rem;
+  right: 8px;
+  top: 0;
+}
+
+@media (min-width: 992px) {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+    display: block;
+    text-align: center;
+    /* width: 10px; */
+    margin: 2px auto 4px auto;
+    /* top: 0; */
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+    top: -10px;
+    right: -5px;
+  }
+}
+
+/* =================== modal 1 ===================== */
+.modal .custom-note a:hover {
+  color: #0c63e4 !important;
+}
+@media screen and (max-width: 767px) {
+  .modal .modal-body__img {
+    display: none;
+  }
+}
