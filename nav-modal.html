@@ -178,13 +178,13 @@
 
     <!-- --------------- start modal 2 -------------- -->
 
-    <section>
+    <section class="modalCarousel">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <h3>Modal 2</h3>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Carousel">
-                        Click
+                    <button type="button" class="btn btn-modal2" data-bs-toggle="modal" data-bs-target="#Carousel">
+                        <span> Click</span>
                     </button>
 
                     <!-- Modal -->
@@ -424,7 +424,7 @@
                                     <button class="btn btn-warning" data-bs-target="#exampleModalToggle2"
                                         data-bs-toggle="modal" data-bs-dismiss="modal">سوال
                                         قبلی</button>
-                                    <button type="button" class="btn btn-secondary"
+                                    <button type="button" class="btn btn-secondary btn-outline-dark"
                                         data-bs-dismiss="modal">بستن</button>
                                     <button type="button" class="btn btn-success">ثبت</button>
                                 </div>
@@ -440,8 +440,135 @@
         </div>
     </section>
 
+    <!-- ---------------- start modal 3 ---------------- -->
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section class="modal4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="modal fade" id="faq" aria-hidden="true" aria-labelledby="faq" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark h2" id="faq">Help</h5>
+                                </div>
+
+                                <div class="modal-body pt-4 pb-4">
+
+                                    <div class="container">
+                                        <div class="row justify-content-center gy-2">
+                                            <div class="col-sm-12 question-box position-relative">
+                                                <!-- ------------- 1---------- -->
+                                                <button class="question-box__btn collapsed btn btn-danger text-start "
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#firstquestion" aria-expanded="false"
+                                                    aria-controls="firstquestion">
+                                                    First Question
+                                                    <span class="collapse-icon up "><i
+                                                            class="fa fa-angle-up"></i></span>
+                                                    <span class="collapse-icon down"><i
+                                                            class="fa fa-angle-down"></i></span>
+                                                    <!-- <span class="collapse-icon">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                                                    class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd"
+                                                                        d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z" />
+                                                                </svg>
+                                                            </span> -->
+                                                </button>
+                                                <div class="collapse pt-2" id="firstquestion">
+                                                    <div class="card card-body">
+                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+                                                        dicta perferendis deleniti
+                                                        rem aspernatur iusto cumque veniam accusamus consectetur neque.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- ------------- 2---------- -->
+
+                                            <div class="col-sm-12  question-box position-relative">
+                                                <button class="question-box__btn collapsed btn btn-danger text-start "
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#secondquestion" aria-expanded="false"
+                                                    aria-controls="secondquestion">
+                                                    Secend Question
+                                                    <span class="collapse-icon up "><i
+                                                            class="fa fa-angle-up"></i></span>
+                                                    <span class="collapse-icon down"><i
+                                                            class="fa fa-angle-down"></i></span>
+                                                </button>
+                                                <div class="collapse pt-2" id="secondquestion">
+                                                    <div class="card card-body">
+                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+                                                        dicta perferendis deleniti
+                                                        rem aspernatur iusto cumque veniam accusamus consectetur neque.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- ------------- 3---------- -->
+
+                                            <div class="col-sm-12  question-box position-relative">
+                                                <button class="question-box__btn collapsed btn btn-danger text-start "
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#thirdquestion" aria-expanded="false"
+                                                    aria-controls="thirdquestion">
+                                                    Third Question
+                                                    <span class="collapse-icon up "><i
+                                                            class="fa fa-angle-up"></i></span>
+                                                    <span class="collapse-icon down"><i
+                                                            class="fa fa-angle-down"></i></span>
+                                                </button>
+                                                <div class="collapse pt-2" id="thirdquestion">
+                                                    <div class="card card-body">
+                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+                                                        dicta perferendis deleniti
+                                                        rem aspernatur iusto cumque veniam accusamus consectetur neque.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- ------------- 4---------- -->
+
+                                            <div class="col-sm-12 question-box position-relative">
+                                                <button class="question-box__btn collapsed btn btn-danger text-start "
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#fourthquestion" aria-expanded="false"
+                                                    aria-controls="fourthquestion">
+                                                    fourth Question
+                                                    <span class="collapse-icon up "><i
+                                                            class="fa fa-angle-up"></i></span>
+                                                    <span class="collapse-icon down"><i
+                                                            class="fa fa-angle-down"></i></span>
+                                                </button>
+                                                <div class="collapse pt-2" id="fourthquestion">
+                                                    <div class="card card-body">
+                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
+                                                        dicta perferendis deleniti
+                                                        rem aspernatur iusto cumque veniam accusamus consectetur neque.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn btn-outline-primary px-4 py-2" data-bs-toggle="modal" href="#faq"
+                        role="button">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================  -->
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
