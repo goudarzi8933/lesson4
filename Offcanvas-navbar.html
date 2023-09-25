@@ -36,7 +36,6 @@
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel" style=" background-color: #1c2138; direction: rtl;">
                 <div class="offcanvas-header">
-                    <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
                     <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close">
                         <i class="fa fa-close"></i>
                     </button>
@@ -62,14 +61,14 @@
                                 <i class="fa fa-chevron-down"></i>
                             </a>
                             <ul class="dropdown-menu" style="background-color: #1c2138;">
-                                <li><a class="dropdown-item" href="#">آموزش رایگان ArcGIS Pro</a></li>
-                                <li><a class="dropdown-item" href="#"> آموزش رایگان ArcGIS</a></li>
-                                <li><a class="dropdown-item" href="#"> آموزش رایگان QGIS</a></li>
-                                <li><a class="dropdown-item" href="#">آموزش رایگان گلوبال مپر</a></li>
-                                <li><a class="dropdown-item" href="#">آموزش رایگان نرم افزار Surfer</a></li>
-                                <li><a class="dropdown-item" href="#"> آموزش رایگان Civil 3D</a></li>
-                                <li><a class="dropdown-item" href="#">آموزش رایگان AutoCAD</a></li>
-                                <li><a class="dropdown-item" href="#">آموزش رایگان سنجش از دور</a></li>
+                                <li><a class="dropdown-item pb-2" href="#">آموزش رایگان ArcGIS Pro</a></li>
+                                <li><a class="dropdown-item pb-2" href="#"> آموزش رایگان ArcGIS</a></li>
+                                <li><a class="dropdown-item pb-2" href="#"> آموزش رایگان QGIS</a></li>
+                                <li><a class="dropdown-item pb-2" href="#">آموزش رایگان گلوبال مپر</a></li>
+                                <li><a class="dropdown-item pb-2" href="#">آموزش رایگان نرم افزار Surfer</a></li>
+                                <li><a class="dropdown-item pb-2" href="#"> آموزش رایگان Civil 3D</a></li>
+                                <li><a class="dropdown-item pb-2" href="#">آموزش رایگان AutoCAD</a></li>
+                                <li><a class="dropdown-item pb-2 border-0" href="#">آموزش رایگان سنجش از دور</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -281,6 +280,147 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------- start modal 3 ---------------- -->
+
+    <section dir="rtl" class="modal3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="modal fade" id="Question" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+                        tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel">سوال اول</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <div class="card-header text-end">
+                                            لورم ایپسوم متن ساختگی ؟
+                                        </div>
+                                        <ul class="list-group list-group-flush text-end">
+                                            <li class="list-group-item">
+                                                <input type="radio" name="q1" id="option1">
+                                                <label for="option1"> لورم ایپسوم </label>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <input type="radio" name="q1" id="option2">
+                                                <label for="option2"> لورم ایپسوم </label>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <input type="radio" name="q1" id="option3">
+                                                <label for="option3"> لورم ایپسوم </label>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                        data-bs-toggle="modal" data-bs-dismiss="modal">سوال بعدی</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel2">سوال دوم</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <div class="card-header text-end">
+                                            لورم ایپسوم متن ساختگی ؟
+                                        </div>
+                                        <ul class="list-group list-group-flush text-end">
+                                            <li class="list-group-item">
+                                                <input type="radio" name="q2" id="option4">
+                                                <label for="option4">متن ساختگی </label>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <input type="radio" name="q2" id="option5">
+                                                <label for="option5"> متن ساختگی</label>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <input type="radio" name="q2" id="option6">
+                                                <label for="option6"> متن ساختگی </label>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-warning" data-bs-target="#Question" data-bs-toggle="modal"
+                                        data-bs-dismiss="modal">سوال
+                                        قبلی</button>
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle3"
+                                        data-bs-toggle="modal" data-bs-dismiss="modal">سوال بعدی</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="exampleModalToggle3" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel3">سوال سوم</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <div class="card-header text-end">
+                                            لورم ایپسوم متن ساختگی ؟
+                                        </div>
+                                        <ul class="list-group list-group-flush text-end">
+                                            <li class="list-group-item">
+                                                <input type="radio" name="q2" id="option7">
+                                                <label for="option7"> لورم ایپسوم </label>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <input type="radio" name="q2" id="option8">
+                                                <label for="option8"> لورم ایپسوم </label>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <input type="radio" name="q2" id="option9">
+                                                <label for="option9"> لورم ایپسوم </label>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-warning" data-bs-target="#exampleModalToggle2"
+                                        data-bs-toggle="modal" data-bs-dismiss="modal">سوال
+                                        قبلی</button>
+                                    <button type="button" class="btn btn-secondary btn-outline-dark"
+                                        data-bs-dismiss="modal">بستن</button>
+                                    <button type="button" class="btn btn-success">ثبت</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="btn-modal3">
+                        <a class="btn" data-bs-toggle="modal" href="#Question" role="button">نظرسنجی</a>
+                    </div>
+
                 </div>
             </div>
         </div>
