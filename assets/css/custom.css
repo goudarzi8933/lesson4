@@ -671,6 +671,7 @@ input[type="radio"] {
   text-align: right;
   padding: 12px 20px 0;
   border-bottom: 1px solid #2d3454;
+  font-size: 14px;
 }
 
 .offcanvas .offcanvas-body .dropdown .dropdown-menu .dropdown-item:hover,
