@@ -22,15 +22,16 @@
 <body>
     <div class="container">
         <nav class="navbar bg-body-tertiary fixed-top side-nav">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" alt="">
-            </a>
+
             <button class="btn-bar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span>
                     <i class="fa fa-bars"></i>
                 </span>
             </button>
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="">
+            </a>
 
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel" style=" background-color: #1c2138; direction: rtl;">
@@ -81,10 +82,7 @@
                             <a class="nav-link" href="#">درباره ما</a>
                         </li>
                     </ul>
-                    <!-- <form class="d-flex mt-3" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form> -->
+
                     <ul class="d-flex mt-2">
                         <li> <a href="#" class="btn btn-light btn-outline-danger ms-4 pe-4 ps-4">ورود</a>
                         </li>
@@ -283,271 +281,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ---------------- start modal 3 ---------------- -->
-
-    <section dir="rtl" class="modal3">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="modal fade" id="Question" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-                        tabindex="-1">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalToggleLabel">سوال اول</h5>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="card">
-                                        <div class="card-header text-end">
-                                            لورم ایپسوم متن ساختگی ؟
-                                        </div>
-                                        <ul class="list-group list-group-flush text-end">
-                                            <li class="list-group-item">
-                                                <input type="radio" name="q1" id="option1">
-                                                <label for="option1"> لورم ایپسوم </label>
-                                            </li>
-
-                                            <li class="list-group-item">
-                                                <input type="radio" name="q1" id="option2">
-                                                <label for="option2"> لورم ایپسوم </label>
-                                            </li>
-
-                                            <li class="list-group-item">
-                                                <input type="radio" name="q1" id="option3">
-                                                <label for="option3"> لورم ایپسوم </label>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
-                                        data-bs-toggle="modal" data-bs-dismiss="modal">سوال بعدی</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
-                        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalToggleLabel2">سوال دوم</h5>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="card">
-                                        <div class="card-header text-end">
-                                            لورم ایپسوم متن ساختگی ؟
-                                        </div>
-                                        <ul class="list-group list-group-flush text-end">
-                                            <li class="list-group-item">
-                                                <input type="radio" name="q2" id="option4">
-                                                <label for="option4">متن ساختگی </label>
-                                            </li>
-
-                                            <li class="list-group-item">
-                                                <input type="radio" name="q2" id="option5">
-                                                <label for="option5"> متن ساختگی</label>
-                                            </li>
-
-                                            <li class="list-group-item">
-                                                <input type="radio" name="q2" id="option6">
-                                                <label for="option6"> متن ساختگی </label>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-warning" data-bs-target="#Question" data-bs-toggle="modal"
-                                        data-bs-dismiss="modal">سوال
-                                        قبلی</button>
-                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle3"
-                                        data-bs-toggle="modal" data-bs-dismiss="modal">سوال بعدی</button>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="modal fade" id="exampleModalToggle3" aria-hidden="true"
-                        aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalToggleLabel3">سوال سوم</h5>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="card">
-                                        <div class="card-header text-end">
-                                            لورم ایپسوم متن ساختگی ؟
-                                        </div>
-                                        <ul class="list-group list-group-flush text-end">
-                                            <li class="list-group-item">
-                                                <input type="radio" name="q2" id="option7">
-                                                <label for="option7"> لورم ایپسوم </label>
-                                            </li>
-
-                                            <li class="list-group-item">
-                                                <input type="radio" name="q2" id="option8">
-                                                <label for="option8"> لورم ایپسوم </label>
-                                            </li>
-
-                                            <li class="list-group-item">
-                                                <input type="radio" name="q2" id="option9">
-                                                <label for="option9"> لورم ایپسوم </label>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-warning" data-bs-target="#exampleModalToggle2"
-                                        data-bs-toggle="modal" data-bs-dismiss="modal">سوال
-                                        قبلی</button>
-                                    <button type="button" class="btn btn-secondary btn-outline-dark"
-                                        data-bs-dismiss="modal">بستن</button>
-                                    <button type="button" class="btn btn-success">ثبت</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="btn-modal3">
-                        <a class="btn" data-bs-toggle="modal" href="#Question" role="button">نظرسنجی</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ---------------- start modal 3 ---------------- -->
-
-    <section class="modal4">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="modal fade" id="faq" aria-hidden="true" aria-labelledby="faq" tabindex="-1">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title text-dark h2" id="faq">Help</h5>
-                                </div>
-
-                                <div class="modal-body pt-4 pb-4">
-
-                                    <div class="container">
-                                        <div class="row justify-content-center gy-2">
-                                            <div class="col-sm-12 question-box position-relative">
-                                                <!-- ------------- 1---------- -->
-                                                <button class="question-box__btn collapsed btn btn-danger text-start "
-                                                    type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#firstquestion" aria-expanded="false"
-                                                    aria-controls="firstquestion">
-                                                    First Question
-                                                    <span class="collapse-icon up "><i
-                                                            class="fa fa-angle-up"></i></span>
-                                                    <span class="collapse-icon down"><i
-                                                            class="fa fa-angle-down"></i></span>
-                                                    <!-- <span class="collapse-icon">
-                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                                                            class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
-                                                                            <path fill-rule="evenodd"
-                                                                                d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z" />
-                                                                        </svg>
-                                                                    </span> -->
-                                                </button>
-                                                <div class="collapse pt-2" id="firstquestion">
-                                                    <div class="card card-body">
-                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
-                                                        dicta perferendis deleniti
-                                                        rem aspernatur iusto cumque veniam accusamus consectetur neque.
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- ------------- 2---------- -->
-
-                                            <div class="col-sm-12  question-box position-relative">
-                                                <button class="question-box__btn collapsed btn btn-danger text-start "
-                                                    type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#secondquestion" aria-expanded="false"
-                                                    aria-controls="secondquestion">
-                                                    Secend Question
-                                                    <span class="collapse-icon up "><i
-                                                            class="fa fa-angle-up"></i></span>
-                                                    <span class="collapse-icon down"><i
-                                                            class="fa fa-angle-down"></i></span>
-                                                </button>
-                                                <div class="collapse pt-2" id="secondquestion">
-                                                    <div class="card card-body">
-                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
-                                                        dicta perferendis deleniti
-                                                        rem aspernatur iusto cumque veniam accusamus consectetur neque.
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- ------------- 3---------- -->
-
-                                            <div class="col-sm-12  question-box position-relative">
-                                                <button class="question-box__btn collapsed btn btn-danger text-start "
-                                                    type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#thirdquestion" aria-expanded="false"
-                                                    aria-controls="thirdquestion">
-                                                    Third Question
-                                                    <span class="collapse-icon up "><i
-                                                            class="fa fa-angle-up"></i></span>
-                                                    <span class="collapse-icon down"><i
-                                                            class="fa fa-angle-down"></i></span>
-                                                </button>
-                                                <div class="collapse pt-2" id="thirdquestion">
-                                                    <div class="card card-body">
-                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
-                                                        dicta perferendis deleniti
-                                                        rem aspernatur iusto cumque veniam accusamus consectetur neque.
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- ------------- 4---------- -->
-
-                                            <div class="col-sm-12 question-box position-relative">
-                                                <button class="question-box__btn collapsed btn btn-danger text-start "
-                                                    type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#fourthquestion" aria-expanded="false"
-                                                    aria-controls="fourthquestion">
-                                                    fourth Question
-                                                    <span class="collapse-icon up "><i
-                                                            class="fa fa-angle-up"></i></span>
-                                                    <span class="collapse-icon down"><i
-                                                            class="fa fa-angle-down"></i></span>
-                                                </button>
-                                                <div class="collapse pt-2" id="fourthquestion">
-                                                    <div class="card card-body">
-                                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
-                                                        dicta perferendis deleniti
-                                                        rem aspernatur iusto cumque veniam accusamus consectetur neque.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="btn btn-outline-primary px-4 py-2" data-bs-toggle="modal" href="#faq"
-                        role="button">FAQ</a>
                 </div>
             </div>
         </div>
